@@ -1,1 +1,15 @@
-div{background: forestgreen}
+div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#obj {
+    background: forestgreen;
+    color: white;
+    
+    width: 50px;
+    position: absolute;
+    left: 800px;
+    top: 400px;
+}
