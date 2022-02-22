@@ -1,7 +1,9 @@
 div{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    --ptbvar: 15px;
+    padding-top: var(--ptbvar);
+    padding-bottom: var(--ptbvar);
     text-align: center;
+    border-radius: 40px;
 }
 
 #obj {
